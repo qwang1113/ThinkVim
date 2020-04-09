@@ -284,9 +284,9 @@ if dein#tap('vim-easymotion')
 endif
 
 if dein#tap('vim-which-key')
-		nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
-		vnoremap <silent> <leader>      :<c-u>WhichKeyVisual '<Space>'<CR>
-		nnoremap <silent> <localleader> :<c-u>WhichKey  ';'<CR>
+		nnoremap <silent> <leader>      :<c-u>WhichKey ';'<CR>
+		vnoremap <silent> <leader>      :<c-u>WhichKeyVisual ';'<CR>
+		nnoremap <silent> <localleader> :<c-u>WhichKey  '<Space>'<CR>
 		nnoremap <silent>[              :<c-u>WhichKey  '['<CR>
 		nnoremap <silent>]              :<c-u>WhichKey  ']'<CR>
 endif
